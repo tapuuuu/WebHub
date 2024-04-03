@@ -1,0 +1,30 @@
+body{
+    background-color:#ec9706;
+    animation: colorAnimate 5s linear 10s infinite normal;
+
+   
+}
+
+h1{
+    text-align: center;
+}
+
+#content{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes colorAnimate {
+    from {background-color:#ec9706}
+    to{background-color:#fa8128} 
+}
